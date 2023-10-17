@@ -1,7 +1,7 @@
 describe('Example', () => {
   beforeAll(async () => {
     await device.launchApp();
-    // debugger;
+    debugger;
   });
 
   beforeEach(async () => {
