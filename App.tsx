@@ -26,6 +26,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import GroceryShoppingList from './GroceryShoppingList';
+import LoginPage from './LoginPage';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -81,6 +82,7 @@ function App(): JSX.Element {
           <Section title="Hello world">
             <View testID="welcome">
               <Text>Some text</Text>
+              <LoginPage></LoginPage>
             </View>
           </Section>
           <Section title="Detox test">
